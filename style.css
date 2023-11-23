@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 	#282828;
+    color: white;
+}
+header {
+    background-color:  black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .logo-left, .logo-right {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* To maintain aspect ratio */
+  }
+
+  .centered-li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: oblique;
+  }
+
+  .centered-li li {
+    display: inline;
+    margin: 0 10px; /* Adjust the spacing as needed */
+  }
+
+  .ranking-table{
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid #3498db;
+    float: left;
+  }
+
+  
+
+  h2{
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .current-match{
+    width: 48%;
+   margin-right: 10px;
+    border-radius: 20px;
+    border: 1px solid #3498db;
+    float: right;
+    margin-left: 4px;
+    height: 80%;
+    margin-top: 8px;
+   
+  }
+
+.runs{
+    width: 50%;
+    height: 80%;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    margin-left: 4px;
+    margin-top: 12px;
+    float: left;
+    border-radius: 15px;
+    
+}
+.wickets{
+    margin-top: 8px;
+    width: 50%;
+    height: 80%;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    margin-left: 4px;
+    float: left;
+    border-radius: 15px;
+}
+table {
+  width: 100%;
+    border-collapse: collapse;
+    display: table;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 2px;
+  
+}
+ td{
+    text-align: left;
+    padding: 12px;
+    border-radius: 75px;
+    border-width: 30px;
+    border-bottom: 1px solid #3498db;
+    overflow: hidden;
+  
+}
+ th{
+    padding: 12px;
+    text-align: left;
+}
+
+
+
+.tab1{
+    height: 300px;
+    
+}
+
+
+.tab2{
+    height: 250px;
+}
+
